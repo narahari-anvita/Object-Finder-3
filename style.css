@@ -1,0 +1,71 @@
+body {
+    background-size: cover;
+    font-family: 'Smooch Sans', sans-serif;
+
+}
+
+#heading {
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    color: black;
+    font-weight: 800;
+}
+
+#input{
+    width: 30px;
+    height: 10px;
+    font-size: 30px;
+}
+
+
+#heading:hover {
+    color: black;
+    font-weight: 600;
+    background-image: linear-gradient(to top left, rgb(250, 255, 179), rgb(168, 255, 160), rgb(71, 175, 255));
+
+}
+
+#object_status {
+    color: black;
+    font-weight: 600;
+    background-image: linear-gradient(to top left, rgb(255, 179, 186), rgb(255, 255, 186), rgb(186, 225, 255));
+
+}
+
+
+
+#start,
+#object_status {
+    font-size: 18px;
+    box-shadow: 3px 3px 3px peachpuff;
+    background-color: antiquewhite;
+    color: rgb(255, 0, 51);
+}
+
+
+#object_status,
+#object,
+#start {
+    font-size: 18px;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: rgb(38, 0, 255);
+    bottom: 0;
+    width: 100%;
+    background-image: linear-gradient(to top left, rgb(255, 179, 186), rgb(255, 255, 186), rgb(186, 225, 255));
+    line-height: 3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 3px 3px 3px rgb(183, 0, 255);
+}
+
+canvas {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+}
